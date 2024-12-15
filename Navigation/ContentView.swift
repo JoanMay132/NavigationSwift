@@ -7,18 +7,17 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+//            List(1..<100) { number in
+//                NavigationLink("Tap Me") { DetailView(number: number) }
+//                
+//            }
         }
-        .padding()
     }
 }
+	
 
-#Preview {
-    ContentView()
-}
