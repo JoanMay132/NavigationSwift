@@ -15,6 +15,8 @@ struct ContentView: View {
 //            List(1..<100) { number in
 //                NavigationLink("Tap Me") { DetailView(number: number) }
 //                
+//                
+//                
 //            }
         }
     }
